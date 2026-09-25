@@ -1,0 +1,24 @@
+{
+  "name": "object-confessional",
+  "version": "1.0.0",
+  "description": "Local AI image confession app powered by Tether QVAC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test:qvac": "node tests/qvac-test.js"
+  },
+  "keywords": [
+    "qvac",
+    "local-ai",
+    "multimodal",
+    "image-ai"
+  ],
+  "author": "Anubhav",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@qvac/sdk": "^0.20.0",
+    "express": "^5.2.1",
+    "multer": "^2.4.0"
+  }
+}
